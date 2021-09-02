@@ -1,1 +1,0 @@
-# paolagaribay.github.io
