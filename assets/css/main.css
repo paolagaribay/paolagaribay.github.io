@@ -2199,6 +2199,9 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			.image.fit img:hover {
+				opacity: 0.5;
+			}
 
 		.image.main {
 			display: block;
