@@ -1559,6 +1559,9 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+		.image.fit img:hover {
+				opacity: 0.5;
+			}
 
 		.image.featured {
 			display: block;
