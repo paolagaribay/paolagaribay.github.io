@@ -1558,6 +1558,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			object-fit: cover;
 		}
 		.image.fit img:hover {
 				opacity: 0.5;
