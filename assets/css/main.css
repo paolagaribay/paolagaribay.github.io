@@ -1560,6 +1560,14 @@ input, select, textarea {
 			transform: scale(1);
 			transition: all 0.3s ease-in-out;
 		}
+		.image.full {
+			display: block;
+			width: 100%;
+			object-fit: cover;
+		}
+		.image.full img:hover {
+				transform: scale(1.05);
+			}
 
 		.image.fit {
 			display: block;
