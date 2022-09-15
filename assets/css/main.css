@@ -1545,6 +1545,9 @@ input, select, textarea {
 		}
 
 /* Image */
+	.img-container {
+		overflow: hidden;
+}
 
 	.image {
 		display: inline-block;
@@ -1558,7 +1561,6 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
-			overflow: hidden;
 			object-fit: cover;
 			transform: scale(1);
 			transition: all 0.3s ease-in-out;
